@@ -9,13 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    // MARK: - SubViews
+
+    lazy var headerView: StickyHeaderView = {
+        let headerView = StickyHeaderView(frame: CGRect(
+            origin: .zero,
+            size: CGSize(
+                width: view.frame.width,
+                height: 300)))
+        return headerView
+    }()
+
     @IBOutlet weak var tableView: UITableView!
+
+    // MARK: - View Lifecycle / Setup
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         tableView.delegate = self
         tableView.dataSource = self
+
+        setUpViews()
     }
+
+    func setUpViews() {
+        view.addSubview(headerView)
+    }
+
+    // MARK: - Table View Data Source
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 40

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994DB0BD2465DC39005FE2BD /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994DB0BC2465DC39005FE2BD /* StickyHeaderView.swift */; };
 		BD7ACD902465C440007EB133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACD8F2465C440007EB133 /* AppDelegate.swift */; };
 		BD7ACD922465C440007EB133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACD912465C440007EB133 /* SceneDelegate.swift */; };
 		BD7ACD942465C440007EB133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACD932465C440007EB133 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		994DB0BC2465DC39005FE2BD /* StickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderView.swift; sourceTree = "<group>"; };
 		BD7ACD8C2465C440007EB133 /* TableView-StickyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView-StickyHeader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7ACD8F2465C440007EB133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD7ACD912465C440007EB133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				BD7ACD912465C440007EB133 /* SceneDelegate.swift */,
 				BD7ACD932465C440007EB133 /* ViewController.swift */,
 				BD7ACD952465C440007EB133 /* Main.storyboard */,
+				994DB0BC2465DC39005FE2BD /* StickyHeaderView.swift */,
 				BD7ACD982465C442007EB133 /* Assets.xcassets */,
 				BD7ACD9A2465C442007EB133 /* LaunchScreen.storyboard */,
 				BD7ACD9D2465C442007EB133 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994DB0BD2465DC39005FE2BD /* StickyHeaderView.swift in Sources */,
 				BD7ACD942465C440007EB133 /* ViewController.swift in Sources */,
 				BD7ACD902465C440007EB133 /* AppDelegate.swift in Sources */,
 				BD7ACD922465C440007EB133 /* SceneDelegate.swift in Sources */,
